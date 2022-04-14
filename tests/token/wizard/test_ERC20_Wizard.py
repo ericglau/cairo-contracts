@@ -22,7 +22,7 @@ DECIMALS = 18
 def contract_defs():
     account_def = get_contract_def('openzeppelin/account/Account.cairo')
     erc20_def = get_contract_def(
-        'openzeppelin/token/erc20/ERC20_Wizard.cairo')
+        'tests/mocks/wizard/ERC20_Wizard.cairo')
 
     return account_def, erc20_def
 
